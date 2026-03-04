@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="hm-hero">
+    <section className="hm-hero" id='hero'>
       <div className="hm-content">
         <p className="hm-kicker">
           Home-grown rabbits, expert care, and trusted farm quality.
