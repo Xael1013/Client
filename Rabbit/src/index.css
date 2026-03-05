@@ -663,3 +663,137 @@
   /* transform: scaleY(-1);   flips upside down */
   z-index: -1;                 /* keeps it behind text */
 }
+
+/* CONTACT SECTION
+.contact-hero {
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+} */
+
+/* MAIN LAYOUT */
+.contact-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* IMAGE CARD */
+.contact-side img {
+  width: 260px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* FORM CONTAINER */
+.contact-container {
+  background: #c9b68a;
+  padding: 35px 45px;
+  border-radius: 25px;
+  width: 420px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* TITLE */
+.contact-container h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #6b5a3d;
+  letter-spacing: 1px;
+}
+
+/* FORM */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* INPUT FIELDS */
+#contact-form input,
+#contact-form textarea {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+
+/* TEXTAREA */
+#contact-form textarea {
+  resize: none;
+  height: 80px;
+  border-radius: 12px;
+}
+
+/* BUTTON */
+#contact-form button {
+  width: 120px;
+  margin: 10px auto 0;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background: #8a7752;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#contact-form button:hover {
+  background: #6d5c3f;
+}
+
+/* SOCIAL ICONS */
+
+.contact-icons{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 18px;
+}
+
+.contact-icons a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icons img{
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-icons img:hover{
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-side img {
+    width: 220px;
+    height: 320px;
+    display: none;
+  }
+
+  .contact-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}

@@ -31,7 +31,7 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <ul className="nav-links desktop">
-          <li><a href="#hero">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#products">Our Products</a></li>
           <li><a href="#contact">Contact Us</a></li>
